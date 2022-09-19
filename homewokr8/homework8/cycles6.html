@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Завдання 4.1</title>
+  </head>
+  <body>
+    <script>
+      let N = parseInt(prompt("Номер N"));
+      let M = parseInt(prompt("Номер M(більше за N)"));
+      document.write(`${N} -- ${M} <br>`);
+      function myFunction() {
+        while (N <= M) {
+          N = N + 1;
+          M = M - 1;
+          document.write(`${N} -- ${M} <br>`);
+        }
+      }
+    </script>
+    <input type="button" onclick="myFunction()" value="Цикл" />
+  </body>
+</html>

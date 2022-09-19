@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Завдання 5</title>
+  </head>
+  <body>
+    <script>
+      let userMoney = parseFloat(prompt("Сумму,яку ви вклали(в тис.гривень)"));
+      for (let i = 0; i < 1; i++) {
+        let investMoney = userMoney * 0.2;
+        document.write(`За рік ви отримали ${investMoney} тыс.гривень <br>`);
+        for (let j = 0; j < 1; j++) {
+          let resultMoney = investMoney * 20;
+          document.write(`За 20 років ви отримали ${resultMoney} тыс.гривень`);
+        }
+      }
+    </script>
+  </body>
+</html>

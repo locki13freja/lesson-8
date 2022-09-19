@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Завдання 5</title>
+  </head>
+  <body>
+    <script>
+      let userNumber;
+      alert(`1. Сказати «Привіт».
+      2. Сказати «Зачекай».
+      3. Сказати «До побачення».
+      4. Вихід.`);
+      do {
+        userNumber = parseInt(prompt("Введіть номер"));
+        if (userNumber == 1) {
+          alert(`Привіт`);
+        } else if (userNumber == 2) {
+          alert(`Зачекай`);
+        } else if (userNumber == 3) {
+          alert(`До побачення`);
+        } else if (userNumber == 4) {
+          break;
+        } else (userNumber > 1000000)[alert(`Ви ввели не то число`)];
+      } while (userNumber != 1000000);
+    </script>
+  </body>
+</html>
